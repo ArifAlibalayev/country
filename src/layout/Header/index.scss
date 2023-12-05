@@ -1,0 +1,42 @@
+#header{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    min-height: 5vh;
+}
+
+#navigation{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .darkmode{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        button{
+            border: none;
+            outline: none;
+            background-color: white ;
+        }
+    }
+}
+
+:root{
+    --bg-color:#black;
+    --color:#white;
+}
+
+
+
+
+body{
+    background-color: var(--color);
+    color:var(--bg-color) ;
+    transition: 300ms;
+}
+
+.dark{
+    background-color: white;
+    color: black;
+}
