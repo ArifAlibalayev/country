@@ -17,26 +17,8 @@
         button{
             border: none;
             outline: none;
-            background-color: white ;
+            background-color: transparent ;
         }
     }
 }
 
-:root{
-    --bg-color:#black;
-    --color:#white;
-}
-
-
-
-
-body{
-    background-color: var(--color);
-    color:var(--bg-color) ;
-    transition: 300ms;
-}
-
-.dark{
-    background-color: white;
-    color: black;
-}

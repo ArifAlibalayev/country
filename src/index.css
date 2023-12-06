@@ -4,13 +4,56 @@ body {
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-body{
-  font-family: 'Nunito Sans', sans-serif;
+body {
+  font-family: "Nunito Sans", sans-serif;
 }
+
+:root {
+  --bg-color: #black;
+  --color: #white;
+}
+
+input{
+  background-color: transparent;
+
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--color);
+  transition: 300ms;
+  
+}
+
+input{
+  color:var(--color);
+}
+
+button{
+  color:var(--color);
+}
+
+
+/* select{
+  background-color: var(--bg-color);
+  color:var(--color);
+} */
+
+.dark {
+  background-color: black;
+  color: white;
+  
+}
+
+
+.open{
+  color: black;
+  text-decoration: none;
+}
+

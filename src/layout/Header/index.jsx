@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./index.scss";
 
 function Header() {
+  const [theme, setTheme] = useState(false)
   useEffect(() => {
     if (theme === "dark") {
       document.body.classList.add("dark");
